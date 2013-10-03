@@ -1,0 +1,46 @@
+{
+	"name":"runrightfast-rest-client",
+	"version":"0.0.14",
+	"description":"RunRightFast Logging Client",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/runrightfast/runrightfast-rest-client.git"
+	},
+	"main":"index",
+	"scripts":{
+		"blanket":{
+			"pattern":[
+				"lib/client.js"
+			]
+		}		
+	},
+	"author":"Alfio Zappala",
+	"license":"Apache v2",
+	"dependencies":{
+		"lodash":"2.2.x",
+		"hoek":"1.1.x",		
+		"runrightfast-commons":"git://github.com/runrightfast/runrightfast-commons.git#0.0.11",
+		"runrightfast-rest-auth-hawk-interceptor":"git://github.com/runrightfast/runrightfast-rest-auth-hawk-interceptor.git#0.0.5",
+		"rest":"1.0.x",
+		"log4js":"0.6.x",
+		"hawk":"1.1.x",
+		"extend":"1.2.x"
+	},
+	"devDependencies":{
+		"grunt":"~0.4.1",
+		"grunt-jslint":"~1.0.0",
+		"mocha":"~1.12.1",
+		"chai":"~1.7.2",
+		"sinon":"~1.7.3",
+		"sinon-chai":"~2.4.0",
+		"grunt-mocha-cov":"~0.0.7",
+		"grunt-contrib-clean":"~0.5.0",
+		"hapi":"~1.11.1",
+		"runrightfast-logging-service-hapi-plugin":"git://github.com/runrightfast/runrightfast-logging-service-hapi-plugin.git#0.0.18",
+		"runrightfast-hapi-server":"git://github.com/runrightfast/runrightfast-hapi-server.git#0.0.14",
+		"runrightfast-logging-server-proxy-hapi-plugin":"git://github.com/runrightfast/runrightfast-logging-server-proxy-hapi-plugin#0.0.6",
+		"lout":"~0.5.0",		
+		"handlebars":"~1.0.12",
+		"furball":"~0.3.3"
+	}
+}
