@@ -1,6 +1,6 @@
 {
 	"name":"runrightfast-rest-client",
-	"version":"0.0.1",
+	"version":"0.0.2",
 	"description":"RunRightFast Logging Client",
 	"repository":{
 		"type":"git",
@@ -19,8 +19,8 @@
 	"dependencies":{
 		"lodash":"2.2.x",
 		"hoek":"1.1.x",		
-		"runrightfast-commons":"git://github.com/runrightfast/runrightfast-commons.git#0.0.11",
-		"runrightfast-rest-auth-hawk-interceptor":"git://github.com/runrightfast/runrightfast-rest-auth-hawk-interceptor.git#0.0.5",
+		"runrightfast-commons":"git://github.com/runrightfast/runrightfast-commons.git#0.0.12",
+		"runrightfast-rest-auth-hawk-interceptor":"git://github.com/runrightfast/runrightfast-rest-auth-hawk-interceptor.git#0.0.6",
 		"rest":"1.0.x",
 		"log4js":"0.6.x",
 		"hawk":"1.1.x",
@@ -36,9 +36,9 @@
 		"grunt-mocha-cov":"~0.0.7",
 		"grunt-contrib-clean":"~0.5.0",
 		"hapi":"~1.11.1",
-		"runrightfast-logging-service-hapi-plugin":"git://github.com/runrightfast/runrightfast-logging-service-hapi-plugin.git#0.0.18",
-		"runrightfast-hapi-server":"git://github.com/runrightfast/runrightfast-hapi-server.git#0.0.14",
-		"runrightfast-logging-server-proxy-hapi-plugin":"git://github.com/runrightfast/runrightfast-logging-server-proxy-hapi-plugin#0.0.6",
+		"runrightfast-logging-service-hapi-plugin":"git://github.com/runrightfast/runrightfast-logging-service-hapi-plugin.git",
+		"runrightfast-hapi-server":"git://github.com/runrightfast/runrightfast-hapi-server.git",
+		"runrightfast-logging-server-proxy-hapi-plugin":"git://github.com/runrightfast/runrightfast-logging-server-proxy-hapi-plugin",
 		"lout":"~0.5.0",		
 		"handlebars":"~1.0.12",
 		"furball":"~0.3.3"
